@@ -4,9 +4,21 @@
 }
 .container-fluid{
   font-family: sans-serif;
+  
 }
 
-.carousel-inner{
- width: 1000px;
- margin: auto;
+
+@media(min-width 500px){
+    .carousel-inner{
+        width: 1000px;
+        margin: auto; 
+    }
 }
+p{
+    text-align: center;
+    font-family: sans-serif;
+   padding: 30px 5px;
+   color: rgb(121, 183, 212);}
+h1{
+    color:rgb(21, 53, 158);
+} ;
