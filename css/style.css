@@ -1,0 +1,12 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container-fluid{
+  font-family: sans-serif;
+}
+
+.carousel-inner{
+ width: 1000px;
+ margin: auto;
+}
