@@ -8,13 +8,13 @@
 }
 
 
-@media(min-width 500px){
+@media(min-width ){
     .carousel-inner{
-        width: 1000px;
-        margin: auto; 
+        width: 1000px !important;
+        margin: auto !important; 
     }
 }
-p{
+.primer-texto{
     text-align: center;
     font-family: sans-serif;
    padding: 30px 5px;
@@ -22,3 +22,27 @@ p{
 h1{
     color:rgb(21, 53, 158);
 } ;
+
+footer{
+    padding: 20px;
+    margin: 0px;
+    
+}
+
+.logos img {
+    width: 30px;
+    margin: 5px;
+}
+.gmail{
+    width:50px !important;
+}
+
+.Contactanos{
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    margin: 0;
+    color:rgb(21, 53, 158)
+;
+}
