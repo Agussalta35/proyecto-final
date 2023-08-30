@@ -7,13 +7,23 @@
   
   
 }
+.carousel-inner{
+    padding-top: 3vh;
+    padding-bottom: 7vh;
+    width: 75%;
+    margin: auto;
+   
+}
+.carousel-inner div img{
+    width: 100%;
+}
 
 
 body{
     background-color: #f0f4f8;
 }
 
-@media(min-width 500px ){
+@media(min-width ){
     .carousel-inner{
         width: 1000px !important;
         margin: auto !important; 
@@ -27,6 +37,10 @@ body{
 h1{
     color:rgb(21, 53, 158);
 } ;
+
+.card{
+
+}
 
 footer{
     padding: 20px;
