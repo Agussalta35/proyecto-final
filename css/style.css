@@ -36,7 +36,10 @@ body{
    color: rgb(121, 183, 212);}
 h1{
     color:rgb(21, 53, 158);
-} ;
+    font-family: sans-serif;
+    text-align: center;
+    padding-bottom: 20px;
+} 
 
 .card{
 
@@ -187,3 +190,15 @@ footer{
   
   .foto16 { grid-area: foto16; }
   
+  .card img {
+    border-radius: 10px ;
+    
+  }
+  .card img:hover{
+    transform: scale(1.2);
+  }
+  .card p {
+    font-family: sans-serif;
+    text-align: center;
+    color: #28527a;
+  }
