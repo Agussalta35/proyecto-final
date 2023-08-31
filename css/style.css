@@ -218,4 +218,16 @@ footer{
   padding-left: 20px;
   background-color: #a0bad3; 
   } 
+  .carrusel-actividades .carousel-inner{
+    padding-top: 3vh;
+    padding-bottom: 7vh;
+    width: 40%;
+    margin: auto;
+  }
+  .accordion{
+    background-color: #f0f4f8;
+    font-family: sans-serif;
+
+  }
+  .
  
