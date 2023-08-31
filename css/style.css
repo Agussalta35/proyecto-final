@@ -229,5 +229,21 @@ footer{
     font-family: sans-serif;
 
   }
-  .
+  .accordion-button{
+    background-color:#f0f4f8 ;
+  }
+  .accordion-button:hover{
+    background-color:#a0bad3 ;
+
+  }
+  .accordion{
+    font-family: sans-serif;
+    color:#a0bad3 ;
+  }
+.accordion-body{
+    font-family: sans-serif;
+    text-align: center;
+    color: #1b3b5a;
+    background-color: #f0f4f8;
+}
  
