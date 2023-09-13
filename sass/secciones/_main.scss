@@ -1,0 +1,294 @@
+.carousel-inner {
+    padding-top: 3vh;
+    padding-bottom: 7vh;
+    width: 75%;
+    margin: auto;
+
+    div {
+        img {
+            width: 100%;
+        }
+    }
+}
+
+
+body {
+    background-color: #f0f4f8;
+}
+
+
+.primer-texto {
+    text-align: center;
+    font-family: sans-serif;
+    padding: 30px 5px;
+    color: rgb(121, 183, 212);
+
+    h1 {
+        color: rgb(21, 53, 158);
+        font-family: sans-serif;
+        text-align: center;
+        padding-bottom: 20px;
+    }
+
+}
+
+
+h1 {
+    color: rgb(21, 53, 158);
+    font-family: sans-serif;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+
+.texto-principal {
+    background-color: #f0f4f8;
+    width: 100% !important;
+    padding: 0;
+    text-align: center;
+}
+
+.body-reserva {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f4f8;
+    background-image: url("https://atardeceres-del-rio-apartment.todos-los-hoteles-traslasierra.com/data/Images/OriginalPhoto/11831/1183102/1183102099/image-mina-clavero-atardeceres-del-rio-apartment-8.JPEG");
+    background-repeat: repeat;
+    background-size: 100% 100%;
+}
+
+.formulario {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+
+    .reserva {
+        background-color: #28527a;
+        padding: 20px;
+        border-radius: 10px;
+        color: white;
+        width: 80%;
+        max-width: 400px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+
+        h2 {
+            font-size: 24px;
+            margin-bottom: 20px;
+            color: white;
+        }
+
+        label {
+            font-size: 14px;
+            margin-top: 10px;
+            display: block;
+        }
+
+        input {
+            width: 100%;
+            padding: 10px;
+            margin-top: 5px;
+            border-radius: 5px;
+            border: none;
+        }
+    }
+
+    .submit {
+        background-color: #1b3b5a;
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 5px;
+        cursor: pointer;
+        margin-top: 15px;
+    }
+}
+
+
+
+/* fotos */
+
+.fotos {
+    display: grid;
+    grid-template-columns: 400px 400px 400px 400px 400px;
+    grid-template-rows: 300px 300px 300px 300px 300px;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    overflow: hidden;
+    margin: auto;
+    grid-template-areas:
+        "foto1 foto2 foto3 foto4 foto5"
+        "foto1 foto6 foto7 foto4 foto9"
+        "foto10 foto11 foto7 foto8 foto9"
+        "foto10 foto12 foto14 foto15 foto16"
+        "foto13 foto12 . foto15 ."
+        ". . . . .";
+
+    div {
+
+     
+
+        img {
+            width: 100%;
+
+            object-fit: contain;
+
+            
+        }
+        img:hover {
+            transform: scale(1.2);
+
+        }
+
+    }
+}
+
+.foto1 {
+    grid-area: foto1;
+}
+
+.foto2 {
+    grid-area: foto2;
+}
+
+.foto3 {
+    grid-area: foto3;
+}
+
+.foto4 {
+    grid-area: foto4;
+}
+
+.foto5 {
+    grid-area: foto5;
+}
+
+.foto6 {
+    grid-area: foto6;
+}
+
+.foto7 {
+    grid-area: foto7;
+}
+
+.foto8 {
+    grid-area: foto8;
+}
+
+.foto9 {
+    grid-area: foto9;
+}
+
+.foto10 {
+    grid-area: foto10;
+}
+
+.foto11 {
+    grid-area: foto11;
+}
+
+.foto12 {
+    grid-area: foto12;
+}
+
+.foto13 {
+    grid-area: foto13;
+}
+
+.foto14 {
+    grid-area: foto14;
+}
+
+.foto15 {
+    grid-area: foto15;
+}
+
+.foto16 {
+    grid-area: foto16;
+}
+
+
+
+
+
+
+
+
+.card {
+
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+    background-color: #a0bad3;
+
+    img {
+        border-radius: 10px;
+
+        
+           
+
+            p {
+                font-family: sans-serif;
+                text-align: center;
+                color: #28527a;
+
+            }
+        
+    } 
+
+    img:hover {
+        transform: scale(1.2);
+    }
+
+
+    h5 {
+        font-family: sans-serif;
+        color: #28527a;
+        text-align: center;
+
+    }
+}
+
+
+.carrusel-actividades .carousel-inner {
+    padding-top: 3vh;
+    padding-bottom: 7vh;
+    width: 40%;
+    margin: auto;
+}
+
+.accordion {
+    background-color: #f0f4f8;
+    font-family: sans-serif;
+
+}
+
+.accordion-button {
+    background-color: #f0f4f8;
+}
+
+.accordion-button:hover {
+    background-color: #a0bad3;
+
+}
+
+.accordion {
+    font-family: sans-serif;
+    color: #a0bad3;
+}
+
+.accordion-body {
+    font-family: sans-serif;
+    text-align: center;
+    color: #1b3b5a;
+    background-color: #f0f4f8;
+}
+
+
+@media(min-width) {
+    .carousel-inner {
+        width: 1000px !important;
+        margin: auto !important;
+    }
+}
