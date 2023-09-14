@@ -259,7 +259,7 @@ h1 {
   font-family: sans-serif;
   text-align: center;
   color: #1b3b5a;
-  background-color: #f0f4f8;
+  background-color: color2;
 }
 
 @media (min-width) {
