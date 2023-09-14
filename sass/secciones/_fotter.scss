@@ -8,8 +8,12 @@ footer{
     img{
         width: 30px;
         margin: 5px;
+        transition: all .2s;
 
-    }  
+    } 
+    img:hover{
+        @extend .animacion
+    } 
     
 }
 .gmail{

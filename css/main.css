@@ -1,3 +1,11 @@
+.animacion, .card img:hover, .fotos div img:hover, .logos img:hover {
+  transform: scale(1.1);
+}
+
+.color1, .card h5 {
+  color: rgb(21, 53, 158);
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -15,8 +23,8 @@ footer {
 .logos img {
   width: 30px;
   margin: 5px;
+  transition: all 0.2s;
 }
-
 .gmail {
   width: 50px !important;
 }
@@ -136,11 +144,8 @@ h1 {
 .fotos div img {
   width: 100%;
   object-fit: contain;
+  transition: all 0.2s;
 }
-.fotos div img:hover {
-  transform: scale(1.2);
-}
-
 .foto1 {
   grid-area: foto1;
 }
@@ -213,18 +218,15 @@ h1 {
 }
 .card img {
   border-radius: 10px;
+  transition: all 0.2s;
 }
 .card img p {
   font-family: sans-serif;
   text-align: center;
   color: #28527a;
 }
-.card img:hover {
-  transform: scale(1.2);
-}
 .card h5 {
   font-family: sans-serif;
-  color: #28527a;
   text-align: center;
 }
 

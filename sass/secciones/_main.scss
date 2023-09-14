@@ -133,11 +133,12 @@ h1 {
             width: 100%;
 
             object-fit: contain;
+            transition: all .2s;
 
             
         }
         img:hover {
-            transform: scale(1.2);
+            @extend .animacion
 
         }
 
@@ -221,9 +222,11 @@ h1 {
     padding-right: 20px;
     padding-left: 20px;
     background-color: #a0bad3;
+    
 
     img {
         border-radius: 10px;
+        transition: all .2s;
 
         
            
@@ -238,18 +241,17 @@ h1 {
     } 
 
     img:hover {
-        transform: scale(1.2);
+      @extend .animacion
     }
 
 
     h5 {
         font-family: sans-serif;
-        color: #28527a;
+        @extend .color1;
         text-align: center;
 
     }
 }
-
 
 .carrusel-actividades .carousel-inner {
     padding-top: 3vh;
