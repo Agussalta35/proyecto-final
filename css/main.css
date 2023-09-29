@@ -55,8 +55,10 @@ body {
 .primer-texto {
   text-align: center;
   font-family: sans-serif;
+  margin: auto;
   padding: 30px 5px;
-  color: rgb(121, 183, 212);
+  width: 900px;
+  color: rgb(21, 53, 158);
 }
 .primer-texto h1 {
   color: rgb(21, 53, 158);
@@ -214,6 +216,7 @@ h1 {
   padding-right: 20px;
   padding-left: 20px;
   background-color: #a0bad3;
+  margin-bottom: 2rem;
 }
 .card img {
   border-radius: 10px;
@@ -232,13 +235,15 @@ h1 {
 .carrusel-actividades .carousel-inner {
   padding-top: 3vh;
   padding-bottom: 7vh;
-  width: 40%;
+  width: 50%;
   margin: auto;
+  min-height: 59vh;
 }
 
 .accordion {
   background-color: #f0f4f8;
   font-family: sans-serif;
+  min-height: 37vh;
 }
 
 .accordion-button {
@@ -261,6 +266,16 @@ h1 {
   background-color: color2;
 }
 
+@media (max-width: 900px) {
+  .main-index {
+    width: 400px;
+    margin: auto;
+  }
+  .primer-texto {
+    width: 400px;
+    margin: auto;
+  }
+}
 @media (min-width) {
   .carousel-inner {
     width: 1000px !important;
